@@ -1,0 +1,36 @@
+{
+  "name": "sicsun-ai-viet",
+  "version": "1.0.0",
+  "description": "Server SicSun AI tiếng Việt chạy chuẩn",
+  "main": "sicsun.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sicsun.js",
+    "dev": "nodemon sicsun.js"
+  },
+  "keywords": [
+    "sicsun",
+    "ai",
+    "viet-nam",
+    "md5",
+    "tool"
+  ],
+  "author": "Minh",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "axios": "^1.8.1",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "fastify": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
